@@ -1,1 +1,1 @@
-$DOTFILES_PATH = $DOTFILES_PATH;
+$env:WINFETCH_CONFIG_PATH = "$DOTFILES_PATH\apps\winfetch\config.ps1";

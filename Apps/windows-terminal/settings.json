@@ -1,0 +1,68 @@
+{
+    "$help": "https://aka.ms/terminal-documentation",
+    "$schema": "https://aka.ms/terminal-profiles-schema",
+    "actions": [
+        {
+            "command": {
+                "action": "splitPane",
+                "split": "right"
+            },
+            "keys": "alt+shift+v"
+        },
+        {
+            "command": {
+                "action": "newTab"
+            },
+            "keys": "ctrl+t"
+        },
+        {
+            "command": {
+                "action": "splitPane",
+                "split": "down"
+            },
+            "keys": "alt+shift+h"
+        },
+        {
+            "command": "closePane",
+            "keys": "ctrl+w"
+        }
+    ],
+    "copyFormatting": "none",
+    "copyOnSelect": false,
+    "defaultProfile": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
+    "experimental.detectURLs": false,
+    "focusFollowMouse": true,
+    "profiles": {
+        "defaults": {
+            "antialiasingMode": "cleartype",
+            "bellStyle": "taskbar",
+            "closeOnExit": "graceful",
+            "cursorHeight": 20,
+            "cursorShape": "vintage",
+            "experimental.retroTerminalEffect": false,
+            "intenseTextStyle": "all",
+            "opacity": 70,
+            "useAcrylic": true
+        },
+        "list": [
+            {
+                "commandline": "%ProgramFiles%\\PowerShell\\7\\pwsh.exe -nologo",
+                "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
+                "hidden": false,
+                "name": "PowerShell 7",
+                "source": "Windows.Terminal.PowershellCore"
+            },
+            {
+                "commandline": "powershell.exe -nologo",
+                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+                "name": "PowerShell"
+            },
+            {
+                "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+                "name": "Command Prompt"
+            }
+        ]
+    },
+    "showTerminalTitleInTitlebar": false,
+    "useAcrylicInTabRow": false
+}

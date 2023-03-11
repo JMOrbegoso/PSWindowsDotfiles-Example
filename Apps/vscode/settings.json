@@ -1,0 +1,39 @@
+{
+  // System
+  "update.mode": "manual",
+  "update.enableWindowsBackgroundUpdates": false,
+  // Window settings
+  "window.restoreWindows": "none",
+  "window.zoomLevel": 1,
+  "explorer.confirmDelete": false,
+  "search.showLineNumbers": true,
+  "zenMode.centerLayout": false,
+  "powershell.integratedConsole.showOnStartup": false,
+  // Editor settings
+  "editor.autoIndent": "full",
+  "editor.cursorBlinking": "solid",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.cursorStyle": "line",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 13,
+  "editor.formatOnSave": false,
+  "editor.formatOnPaste": false,
+  "editor.formatOnType": false,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": "active",
+  "editor.letterSpacing": 0.3,
+  "editor.lineHeight": 25,
+  "editor.minimap.enabled": false,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.suggestSelection": "first",
+  "editor.tabCompletion": "on",
+  "editor.tabSize": 2,
+  "editor.wordWrap": "on",
+  "editor.copyWithSyntaxHighlighting": false,
+  "editor.guides.highlightActiveIndentation": true,
+  "editor.accessibilitySupport": "off",
+  // Git
+  "diffEditor.ignoreTrimWhitespace": false,
+  // Workspace settings
+  "security.workspace.trust.enabled": false
+}

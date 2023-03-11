@@ -1,0 +1,12 @@
+[core]
+	editor = "notepad"
+	ignorecase = false
+[init]
+	defaultBranch = main
+[filter "lfs"]
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+[gpg]
+	program = "C:/Program Files (x86)/gnupg/bin/gpg.exe"

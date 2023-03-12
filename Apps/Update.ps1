@@ -1,8 +1,5 @@
 # Update & configure apps
 
-Write-Host "Updating PSReadLine module:" -ForegroundColor "Green";
-Update-Module -Name "PSReadLine";
-
 Write-Host "Updating PSWebSearch module:" -ForegroundColor "Green";
 Update-Module -Name "PSWebSearch";
 

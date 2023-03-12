@@ -1,8 +1,5 @@
 # Install & configure apps
 
-Write-Host "Installing PSReadLine module:" -ForegroundColor "Green";
-Install-Module -Name "PSReadLine" -Repository "PSGallery" -Scope "AllUsers";
-
 Write-Host "Installing PSWebSearch module:" -ForegroundColor "Green";
 Install-Module -Name "PSWebSearch" -Repository "PSGallery" -Scope "AllUsers";
 

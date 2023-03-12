@@ -6,9 +6,6 @@ Install-Module -Name "PSReadLine" -Repository "PSGallery" -Scope "AllUsers";
 Write-Host "Installing PSWebSearch module:" -ForegroundColor "Green";
 Install-Module -Name "PSWebSearch" -Repository "PSGallery" -Scope "AllUsers";
 
-Write-Host "Installing Terminal-Icons module:" -ForegroundColor "Green";
-Install-Module -Name "Terminal-Icons" -Repository "PSGallery" -Scope "AllUsers";
-
 Write-Host "Installing Winfetch script:" -ForegroundColor "Green";
 Install-Script -Name "pwshfetch-test-1" -Repository "PSGallery" -Scope "AllUsers" -Force;
 

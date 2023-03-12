@@ -9,9 +9,6 @@ Update-Module -Name "PSWebSearch";
 Write-Host "Updating PSWindowsDotfiles module:" -ForegroundColor "Green";
 Update-Module -Name "PSWindowsDotfiles";
 
-Write-Host "Updating Terminal-Icons module:" -ForegroundColor "Green";
-Update-Module -Name "Terminal-Icons";
-
 Write-Host "Updating Winfetch script:" -ForegroundColor "Green";
 Update-Script -Name "pwshfetch-test-1";
 

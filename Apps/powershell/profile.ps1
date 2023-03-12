@@ -3,7 +3,6 @@ $DOTFILES_PATH = "$env:USERPROFILE\.dotfiles";
 
 # Load modules
 Import-Module "PSWindowsDotfiles";
-Import-Module "Terminal-Icons";
 
 # Load exports
 Get-ChildItem "$DOTFILES_PATH\Shell\exports" -Filter *.ps1 | Foreach-Object { . $_.FullName; }
